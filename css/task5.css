@@ -1,0 +1,27 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: rgb(191, 191, 247);
+    color: black;
+    text-align: center;
+    font-family:sans-serif;
+    font-style: normal;
+}
+
+.description {
+    text-align: justify;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(241, 237, 233);
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
