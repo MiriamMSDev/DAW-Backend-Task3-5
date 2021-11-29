@@ -13,7 +13,7 @@
                 $dado = new Dado(0, 12);
 
                 for($i = 0; $i <= 12; $i++){
-                    echo '<p> Triada '.$i.' => '.$dado->tirarDado().'</p>';
+                    echo '<p>Tirada '.$i.' => '.$dado->tirarDado().'</p>';
                 }
             ?>
             <footer>
